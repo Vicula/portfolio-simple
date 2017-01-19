@@ -1,6 +1,7 @@
 
 var menuToggle = document.querySelector('.navigation__button');
 var menu = document.querySelector('.navigation__menu');
+var skillsBox = document.querySelector('.skills');
 var onOff = false;
 
 var menuFunc = function(){
@@ -18,5 +19,7 @@ var menuFunc = function(){
     menu.className = "navigation__menu u__hidden"
   }
 }
+
+skillsBox.scrollLeft = 460;
 
 menuToggle.addEventListener("click", menuFunc);

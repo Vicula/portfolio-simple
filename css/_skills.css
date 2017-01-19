@@ -11,7 +11,7 @@
   margin: 0 auto -100px auto;
 	position: relative;
 
-top: -2vh;
+  top: -1vh;
   white-space:nowrap;
 	width: 100%;
 }
@@ -31,11 +31,11 @@ top: -2vh;
 
 .row-odd{
   margin-left: 16.3vw;
-  transform: translateY(-6vh);
+  transform: translateY(-5vh);
 }
 
 .row-middle{
-  transform: translateY(-12vh);
+  transform: translateY(-10vh);
 }
 
 
