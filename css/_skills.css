@@ -2,14 +2,17 @@
   background: linear-gradient(to bottom,rgba(209,195,152,0.7), rgba(0,0,0,0));
   margin: 0 auto;
   text-align: center;
+  overflow: scroll;
+  z-index: 50;
 }
 
 .skills__hex-row{
 	display: inline-block;
   margin: 0 auto -100px auto;
 	position: relative;
-  transform: translateY(-6vh);
-  overflow: hidden;
+
+top: -2vh;
+  white-space:nowrap;
 	width: 100%;
 }
 
@@ -27,11 +30,15 @@
 }
 
 .row-odd{
-  /*text-align: left;*/
-  /*top: -12vh;*/
+  margin-left: 16.3vw;
+  transform: translateY(-6vh);
+}
+
+.row-middle{
+  transform: translateY(-12vh);
 }
 
 
-.row-odd > .hex-row_hex{
+/*.row-odd > .hex-row_hex{
   width: 30%;
-}
+}*/
