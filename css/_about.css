@@ -1,0 +1,32 @@
+.about{
+  text-align: center;
+  margin-top: 100px;
+}
+
+.about__title{
+  font-size: 150px;
+	font-family: 'Anton', sans-serif;
+	margin-bottom: 0;
+}
+
+.about__text{
+  color: gray;
+	font-size: 25px;
+	width: 80%;
+	margin: auto;
+}
+
+.about__pic-box{
+  width: 100%;
+  font-size: 0;
+  margin: 50px auto;
+}
+
+.about__pic{
+  font-size: 10px;
+  display: inline-block;
+  background: green;
+  width: 33.333%;
+  height: 35vh;
+  border: 1px solid black;
+}
