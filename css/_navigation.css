@@ -1,3 +1,13 @@
-body{
-  color: red;
+.navigation{
+
+}
+.navigation__logo{
+  color: white;
+  font-size: 5vw;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+	background: rgb(45,45,45);
+	padding: 2vw;
+	position: fixed;
+	top: 1.5%;
+	left: 1.5%;
 }
