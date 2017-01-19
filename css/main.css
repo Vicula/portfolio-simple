@@ -1,2 +1,34 @@
 @import url("_navigation.css");
 @import url("_utilities.css");
+@import url("_header.css");
+@import url("_skills.css");
+
+* {
+	box-sizing: border-box;
+}
+
+body{
+	font-family: Helvetica, Arial, sans-serif;
+	margin: 0;
+	display: inline-block;
+	padding: 0;
+  /*background: linear-gradient(to bottom,rgba(209,195,152,0.7), rgba(0,0,0,0));
+  background-repeat: no-repeat;
+  background-size: cover;*/
+	/*font-size: 0;*/
+}
+
+html{
+  margin: 0;
+  padding: 0;
+
+}
+
+.app-container{
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+h1 {
+    margin-top: 0;
+}

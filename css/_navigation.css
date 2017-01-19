@@ -1,12 +1,15 @@
 .navigation{
+  /*position: fixed;
+  width: 100%;
+  top: 0;*/
 
 }
 .navigation__logo{
   color: white;
-  font-size: 5vw;
+  font-size: 3vw;
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 	background: rgb(45,45,45);
-	padding: 2vw;
+	padding: 1.5vw;
 	position: fixed;
 	top: 1.5%;
 	left: 1.5%;
@@ -16,8 +19,8 @@
   width: 50px;
   height: 30px;
   position: absolute;
-  top: 2.5%;
-  right: 2%;
+  top: 20px;
+  right: 3%;
   z-index: 100;
   cursor: pointer;
 }
