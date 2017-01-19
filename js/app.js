@@ -1,7 +1,6 @@
 
 var menuToggle = document.querySelector('.navigation__button');
 var menu = document.querySelector('.navigation__menu');
-var skillsBox = document.querySelector('.skills');
 var onOff = false;
 
 var menuFunc = function(){
@@ -20,6 +19,10 @@ var menuFunc = function(){
   }
 }
 
-skillsBox.scrollLeft = 460;
+
 
 menuToggle.addEventListener("click", menuFunc);
+
+
+var skillsBox = document.querySelector('.skills');
+skillsBox.scrollLeft = 463;

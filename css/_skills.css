@@ -3,12 +3,17 @@
   margin: 0 auto;
   text-align: center;
   overflow: scroll;
+  position: relative;;
+  width: 100%;
+  /*top: 1vh;*/
+  padding-top: 2vh;
   z-index: 50;
+  margin-bottom: 10vh;
 }
 
 .skills__hex-row{
 	display: inline-block;
-  margin: 0 auto -100px auto;
+  margin: 0 auto -90px auto;
 	position: relative;
 
   top: -1vh;
@@ -26,16 +31,70 @@
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   width: 30%;
   height: 20vh;
-  background: #559587;
+  /*background: #559587;*/
+  background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 
 .row-odd{
   margin-left: 16.3vw;
-  transform: translateY(-5vh);
+  /*transform: translateY(-5vh);*/
 }
 
 .row-middle{
-  transform: translateY(-10vh);
+  /*transform: translateY(-10vh);*/
+  margin: 0 auto 0px auto;
+}
+
+.hexA{
+		background-image: url('../images/images/pexels-photo-172292.jpeg');
+}
+.hexB{
+	background-image: url('../images/images/pexels-photo-220632.jpeg');
+
+}
+.hexC{
+	background-image: url('../images/images/pexels-photo-218434.jpeg');
+
+}
+.hexD{
+	background-image: url('../images/images/pexels-photo-207253.jpeg');
+
+}
+.hexE{
+	background-image: url('../images/images/pexels-photo-172289.jpeg');
+
+}
+.hexF{
+	background-image: url('../images/images/pexels-photo-164007.jpeg');
+
+}
+.hexG{
+	background-image: url('../images/images/pexels-photo-139306.jpeg');
+
+}
+.hexH{
+	background-image: url('../images/images/pexels-photo-27031.jpg');
+
+}
+.hexI{
+	background-image: url('../images/images/woodblue.jpg');
+
+}
+
+.hexIcon{
+  font-size: 100px;
+	color: whitesmoke;
+	z-index: 1000;
+	text-shadow:
+	-1px -1px 0 #000,
+	 1px -1px 0 #000,
+	 -1px 1px 0 #000,
+		1px 1px 0 #000;
+	position: relative;
+	// pointer-events: none;
+	top: 120px;
 }
 
 

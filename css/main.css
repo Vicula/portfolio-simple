@@ -3,6 +3,7 @@
 @import url("_header.css");
 @import url("_skills.css");
 @import url("_projects.css");
+@import url("_about.css");
 
 * {
 	box-sizing: border-box;

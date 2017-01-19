@@ -1,0 +1,64 @@
+.projects{
+  text-align: center;
+}
+
+.projects__title{
+  font-size: 150px;
+	font-family: 'Anton', sans-serif;
+	margin-bottom: 0;
+}
+
+.projects__text{
+  color: gray;
+	font-size: 25px;
+	width: 80%;
+	margin: auto;
+}
+
+.holder_row{
+  width: 100%;
+}
+
+.projects_box{
+  width: 60%;
+  height: 50vh;
+  margin: 100px auto;
+}
+
+.box-1{
+  background: url('../images/images/Screen Shot 2017-01-17 at 9.16.21 AM.png');
+  background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.box-2{
+  background: url('../images/images/Screen Shot 2017-01-17 at 9.13.01 AM.png');
+  background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.box-3{
+  background: url('../images/images/Screen Shot 2017-01-17 at 9.14.39 AM.png');
+  background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.box-4{
+  background: url('../images/images/cliqueUpAuth.png');
+  background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.projects__button{
+  padding: 10px;
+	font-weight: bolder;
+	font-size: 20px;
+	border: 5px solid #559587;
+	width: 15%;
+	margin: auto;
+  cursor: pointer;
+}
+.projects__button:hover{
+  color: gray;
+}
